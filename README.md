@@ -17,6 +17,20 @@ A full-stack document parsing pipeline built with **React + Tailwind CSS** (fron
 
 ---
 
+## 🎨 Features
+
+- 📂 **Drag & Drop Upload** — PDF and image support (PNG, JPG, TIFF, BMP)
+- 📖 **Full Text Extraction** — Page-by-page text with copy support
+- 📊 **Table Detection** — Renders extracted tables interactively
+- 🔍 **Entity Detection** — Amounts, dates, account numbers, emails
+- 🌐 **OCR Support** — Tesseract-powered extraction for scanned docs
+- 📈 **Confidence Score** — OCR accuracy percentage for scanned images
+- ⚡ **FastAPI Backend** — Async, high-performance, auto-documented API
+- 🎨 **Dark Terminal UI** — Tailwind CSS with custom design system
+
+
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -149,19 +163,6 @@ docparser/
             ├── ResultsPanel.jsx  # Parsed results display
             └── Sidebar.jsx       # Tech stack + API status
 ```
-
----
-
-## 🎨 Features
-
-- 📂 **Drag & Drop Upload** — PDF and image support (PNG, JPG, TIFF, BMP)
-- 📖 **Full Text Extraction** — Page-by-page text with copy support
-- 📊 **Table Detection** — Renders extracted tables interactively
-- 🔍 **Entity Detection** — Amounts, dates, account numbers, emails
-- 🌐 **OCR Support** — Tesseract-powered extraction for scanned docs
-- 📈 **Confidence Score** — OCR accuracy percentage for scanned images
-- ⚡ **FastAPI Backend** — Async, high-performance, auto-documented API
-- 🎨 **Dark Terminal UI** — Tailwind CSS with custom design system
 
 ---
 
